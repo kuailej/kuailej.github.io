@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="/2020/05/24/hello-world/"/>
+    <url>/2020/05/24/hello-world/</url>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="hljs bash">$ hexo new <span class="hljs-string">"My New Post"</span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="hljs bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="hljs bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="hljs bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>PhpStorm设置根目录文件夹</title>
+    <link href="/2020/05/22/2020-05-30/"/>
+    <url>/2020/05/22/2020-05-30/</url>
+    
+    <content type="html"><![CDATA[<ol><li>右键你想设置的文件夹，找到 *<em>Mark Directory as *</em></li><li>选中 <strong>as Resource Root</strong><br><img src="./_image/2020-05-22/2020-05-30-18-16-35.png" srcset="/img/loading.gif" alt=""></li></ol>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>Idea</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>代理网站常用配置</title>
+    <link href="/2020/05/22/%E4%BB%A3%E7%90%86%E7%BD%91%E7%AB%99%E6%B5%81%E7%A8%8B/"/>
+    <url>/2020/05/22/%E4%BB%A3%E7%90%86%E7%BD%91%E7%AB%99%E6%B5%81%E7%A8%8B/</url>
+    
+    <content type="html"><![CDATA[<h1 id="生成的页面css配置"><a href="#生成的页面css配置" class="headerlink" title="生成的页面css配置"></a>生成的页面css配置</h1><h2 id="ps-修改widith"><a href="#ps-修改widith" class="headerlink" title="ps 修改widith"></a>ps 修改widith</h2><p>快捷键：Comman + Option + E </p><h2 id="布局居中"><a href="#布局居中" class="headerlink" title="布局居中"></a>布局居中</h2><pre><code class="hljs html"><span class="hljs-comment">&lt;!-- 在.mod下添加如下代码居中-&gt;</span><span class="hljs-comment">  position: relative;</span><span class="hljs-comment">  left: 50%;</span><span class="hljs-comment">  margin-left: -800px;</span></code></pre><h2 id="底部空白"><a href="#底部空白" class="headerlink" title="底部空白"></a>底部空白</h2><pre><code class="hljs html"><span class="hljs-comment">&lt;!-- 在.mod 和.mod .box下的hegiht删除-&gt;</span></code></pre><h2 id="html-body默认宽度初始化"><a href="#html-body默认宽度初始化" class="headerlink" title="html,body默认宽度初始化"></a>html,body默认宽度初始化</h2><pre><code class="hljs html">html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img &#123;  margin: 0;  padding: 0;&#125;</code></pre><h2 id="切图留下的boder痕迹，一键替换掉-none"><a href="#切图留下的boder痕迹，一键替换掉-none" class="headerlink" title="切图留下的boder痕迹，一键替换掉 none"></a>切图留下的boder痕迹，一键替换掉 none</h2><pre><code class="hljs html">border-color: rgba(54,153,255,undefined); 全部替换成border:none;</code></pre><h2 id="切图留下的background-蓝色背景替换掉"><a href="#切图留下的background-蓝色背景替换掉" class="headerlink" title="切图留下的background 蓝色背景替换掉"></a>切图留下的background 蓝色背景替换掉</h2><pre><code class="hljs html">background-color: rgba(22,208,255,0.15); 替换成空字符串就行，就是删除""</code></pre><h1 id="配置到tp5-图片和css"><a href="#配置到tp5-图片和css" class="headerlink" title="配置到tp5 图片和css"></a>配置到tp5 图片和css</h1><h2 id="资源文件常用目录"><a href="#资源文件常用目录" class="headerlink" title="资源文件常用目录"></a>资源文件常用目录</h2><pre><code class="hljs dts"><span class="hljs-symbol">css:</span> <span class="hljs-meta-keyword">/static/</span>www<span class="hljs-meta-keyword">/css/</span>home.css</code></pre><p>##图片路径替换</p><pre><code class="hljs gradle">.<span class="hljs-regexp">/ 替换成 /</span><span class="hljs-keyword">static</span><span class="hljs-regexp">/www/</span></code></pre>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  
+</search>
